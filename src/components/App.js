@@ -4,6 +4,11 @@ import '../styles/App.css';
 import {Testimonial} from '../components/Testimonial';
 
 class App extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {users:['Jessie ', 'Stephanie' , 'Marc', 'Judy'],
+                  category:['primary','default','danger','warning']};
+  }
   render() {
     return (
       <div className="container">
@@ -11,7 +16,7 @@ class App extends React.Component {
 
         <div className="row">
   				<div className="col-sm-6">
-            <Testimonial/>
+            <Testimonial users={this.state.users} />
   				</div>
   			</div>
 
