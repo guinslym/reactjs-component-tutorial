@@ -10,25 +10,29 @@ class App extends React.Component {
           name: "Matthew Horizonte",
           jobs: "Web Developer",
           country: 'Australia',
-          category: 'testimonial testimonial-danger'
+          category: 'testimonial testimonial-danger',
+          profileImage: 'https://randomuser.me/api/portraits/men/16.jpg'
         },
         {
-          name: "Kirkwood John",
+          name: "Julie John Fitz",
           jobs: "Dentist",
           country: 'Germany',
-          category: 'testimonial testimonial-warning'
+          category: 'testimonial testimonial-warning',
+          profileImage: 'https://randomuser.me/api/portraits/women/36.jpg'
         },
         {
           name: "Mt. Tallac",
           jobs: "Bus Driver",
           country: 'Canada',
-          category: 'testimonial testimonial-primary'
+          category: 'testimonial testimonial-primary',
+          profileImage: 'https://randomuser.me/api/portraits/men/26.jpg'
         },
         {
           name: "John Fitz Oscar",
           jobs: 34,
           country: 'New Zeland',
-          category: 'testimonial testimonial-default'
+          category: 'testimonial testimonial-default',
+          profileImage: 'https://randomuser.me/api/portraits/men/35.jpg'
         }
       ]
       }

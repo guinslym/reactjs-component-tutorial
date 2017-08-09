@@ -19,7 +19,7 @@ export class Testimonial extends React.Component {
               </div>
 
               <div className="testimonial-desc">
-                  <img src="https://placeholdit.imgix.net/~text?txtsize=9&txt=100%C3%97100&w=100&h=100" alt="" />
+                  <img src={this.props.data.profileImage} alt="" />
                   <div className="testimonial-writer">
                     <div className="testimonial-writer-name">{this.props.data.name}</div>
                     <div className="testimonial-writer-designation">{this.props.data.jobs}</div>
