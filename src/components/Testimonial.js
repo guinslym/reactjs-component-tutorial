@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 export class Testimonial extends React.Component {
 
   componentWillMount(){
-    console.log(this.props);
+    //console.log(this.props);
   }
 
   render(){
