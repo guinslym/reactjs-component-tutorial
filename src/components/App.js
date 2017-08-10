@@ -29,7 +29,7 @@ class App extends React.Component {
         },
         {
           name: "John Fitz Oscar",
-          jobs: 34,
+          jobs: "Database administrator",
           country: 'New Zeland',
           category: 'testimonial testimonial-default',
           profileImage: 'https://randomuser.me/api/portraits/men/35.jpg'

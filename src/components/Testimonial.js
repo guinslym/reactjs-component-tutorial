@@ -34,11 +34,10 @@ export class Testimonial extends React.Component {
 }
 
 
-Testimonial.PropTypes = {
-  data:  PropTypes.shape({
+Testimonial.propTypes = {
+  data: PropTypes.shape({
     name: PropTypes.string.isRequired,
-    jobs: PropTypes.string.isRequired,
     country: PropTypes.string.isRequired,
-    category: PropTypes.string.isRequired
-  }).isRequired
+    jobs: PropTypes.string.isRequired
+  })
 };
