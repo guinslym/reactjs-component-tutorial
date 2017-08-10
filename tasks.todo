@@ -8,9 +8,10 @@ to learn:
 
 todo:
  ☐ Biblio find library (select box)
+ ☐ Create a form component
+ ☐ in this form will will have a selectField
  ☐ Biblio find library (advanced search)
  ☐ Biblio find library (Input-box autocomplete)
  ☐ axios (API)
  ☐ Todo with Firebase
  ☐ Try with GraphQL
-
