@@ -7,9 +7,9 @@ to learn:
  ☐ Routes...
 
 todo:
- ☐ Biblio find library (select box)
- ☐ Create a form component
- ☐ in this form will will have a selectField
+ ✔ Biblio find library (select box) @done(2017-08-10 17:56) @project(todo)
+ ✔  Create a form component @done(2017-08-10 17:56) @project(todo)
+ ✔  in this form will will have a selectField @done(2017-08-10 17:57) @project(todo)
  ☐ Biblio find library (advanced search)
  ☐ Biblio find library (Input-box autocomplete)
  ☐ axios (API)
